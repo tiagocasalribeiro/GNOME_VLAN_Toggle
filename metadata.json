@@ -2,14 +2,14 @@
     "uuid": "updated-vlan-switcher@jrvolt.github.io",
     "name": "Updated VLAN Switcher",
     "description": "Activate and deactivate VLAN connections from the system panel.",
-    "version": 5,
-    "shell-version": [ 
+    "version": 1,
+    "shell-version": [
         "45",
         "46",
-	"47",
-	"48",
-	"49"
+        "47",
+        "48",
+        "49"
     ],
     "settings-schema": "org.gnome.shell.extensions.updated-vlan-switcher",
-    "url": "https://github.com/JrVolt/GNOME_VLAN_Toggle"
+    "url": "https://github.com/tiagocasalribeiro/GNOME_VLAN_Toggle"
 }
