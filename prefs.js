@@ -2,14 +2,14 @@ import Adw from 'gi://Adw';
 import Gio from 'gi://Gio';
 import { ExtensionPreferences, gettext as _ } from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
-export default class VlanSwitcherPreferences extends ExtensionPreferences {
+export default class EnhancedVlanSwitcherPreferences extends ExtensionPreferences {
     fillPreferencesWindow(window) {
-        const settings = this.getSettings('org.gnome.shell.extensions.updated-vlan-switcher');
+        const settings = this.getSettings('org.gnome.shell.extensions.enhanced-vlan-switcher');
 
         const page = new Adw.PreferencesPage();
         const group = new Adw.PreferencesGroup({
             title: _('Display Options'),
-            description: _('Configure where VLAN Switcher appears'),
+            description: _('Configure where Enhanced VLAN Switcher appears'),
         });
         page.add(group);
 
