@@ -213,7 +213,7 @@ const VlanSystemIndicator = GObject.registerClass({
     }
 });
 
-export default class VlanSwitcherExtension extends Extension {
+export default class EnhancedVlanSwitcherExtension extends Extension {
     enable() {
         this.client = NM.Client.new(null);
         this._settings = this.getSettings();
