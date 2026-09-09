@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.updated-vlan-switcher" path="/org/gnome/shell/extensions/updated-vlan-switcher/">
+  <schema id="org.gnome.shell.extensions.enhanced-vlan-switcher" path="/org/gnome/shell/extensions/enhanced-vlan-switcher/">
     <key type="b" name="show-panel-button">
       <default>true</default>
       <summary>Show panel button</summary>
